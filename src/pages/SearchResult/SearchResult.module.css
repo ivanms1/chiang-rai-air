@@ -1,0 +1,19 @@
+.SearchResult {
+  padding: 5rem 10rem;
+}
+
+.Results {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.green {
+  color: lightgreen;
+}
+
+.yellow {
+  color: yellow;
+}
+.red {
+  color: red;
+}

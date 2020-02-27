@@ -1,12 +1,27 @@
 import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
+import SearchResult from './pages/SearchResult';
+
 import 'semantic-ui-css/semantic.min.css';
-import './App.css';
 
 function App() {
   return (
-    <div className='App'>
-      <h1>Chiang Rai Air</h1>
-    </div>
+    <Router>
+      <div>
+        <Navbar />
+        <Switch>
+          <Route exact path='/'>
+            <Home />
+          </Route>
+          <Route path='/search/:city'>
+            <SearchResult />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 

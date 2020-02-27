@@ -1,0 +1,47 @@
+.Home {
+  align-items: center;
+  color: #656565;
+  justify-content: space-between;
+  padding: 0 10rem;
+  display: flex;
+  height: 90vh;
+}
+
+.RightSide {
+  max-width: 40rem;
+}
+
+.RightSide > h1 {
+  font-size: 5rem;
+}
+
+.RightSide > p {
+  font-size: 1.5rem;
+}
+
+.LeftSide {
+  min-width: 30rem;
+}
+
+.Label {
+  font-size: 2rem;
+}
+
+.Aqi {
+  font-size: 5rem;
+}
+
+.CardContent {
+  padding: 2rem !important;
+}
+
+.green {
+  color: lightgreen;
+}
+
+.yellow {
+  color: yellow;
+}
+.red {
+  color: red;
+}
