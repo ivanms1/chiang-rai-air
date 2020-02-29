@@ -13,26 +13,38 @@ const Navbar = () => {
       <Menu.Item
         className={styles.Item}
         name='Chiang Rai Air'
-        onClick={() => setCurrentPage('home')}
+        onClick={() => {
+          history.push('/');
+          setCurrentPage('home');
+        }}
       />
       <Menu.Menu position='right'>
         <Menu.Item
           className={styles.Item}
           name='who we are'
           active={currentPage === 'messages'}
-          onClick={() => setCurrentPage('who')}
+          onClick={() => {
+            history.push('/who');
+            setCurrentPage('who');
+          }}
         />
         <Menu.Item
           className={styles.Item}
           name='what we do'
           active={currentPage === 'what'}
-          onClick={() => setCurrentPage('what')}
+          onClick={() => {
+            history.push('/what');
+            setCurrentPage('what');
+          }}
         />
         <Menu.Item
           className={styles.Item}
-          name='services'
-          active={currentPage === 'services'}
-          onClick={() => setCurrentPage('services')}
+          name='partners'
+          active={currentPage === 'partners'}
+          onClick={() => {
+            history.push('/partners');
+            setCurrentPage('partners');
+          }}
         />
         <Menu.Item>
           <Input

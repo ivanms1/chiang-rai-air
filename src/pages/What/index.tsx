@@ -1,12 +1,12 @@
 import React from 'react';
 
-import styles from './Who.module.css';
+import styles from './What.module.css';
 
-const Who = () => {
+function What() {
   return (
-    <div className={styles.Who}>
+    <div className={styles.What}>
       <div className={styles.RightSide}>
-        <h1>Community</h1>
+        <h1>Make the air cleaner</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. At quam amet
           tenetur? Temporibus, enim incidunt inventore aliquam ut aut odit
@@ -18,12 +18,12 @@ const Who = () => {
       </div>
       <div className={styles.LeftSide}>
         <img
-          src='https://images.unsplash.com/photo-1525138079-9424be9df411?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3024&q=80'
-          alt='plant'
+          src='https://images.unsplash.com/photo-1526197393380-592c737d3bfa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3961&q=80'
+          alt='filter'
         />
       </div>
     </div>
   );
-};
+}
 
-export default Who;
+export default What;

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 
 import styles from './SearchResult.module.css';
-import { Card, Icon } from 'semantic-ui-react';
+import { Card } from 'semantic-ui-react';
 import classNames from 'classnames';
 import { format } from 'date-fns';
 
@@ -53,7 +53,12 @@ const SearchResult = () => {
       ) : (
         <div className={styles.Results}>
           {data.map(result => (
-            <Card key={result.uid} raised className={styles.Card}>
+            <Card
+              key={result.uid}
+              style={{ marginTop: 0 }}
+              raised
+              className={styles.Card}
+            >
               <Card.Content className={styles.CardContent}>
                 <Card.Meta>
                   <span className={styles.Label}>{result.station.name}</span>
@@ -74,7 +79,7 @@ const SearchResult = () => {
               <Card.Content extra>
                 <span>
                   Last update {format(new Date(result.time.stime), 'EEEE H:mm')}{' '}
-                  (Thailand Time)
+                  (Local Time)
                 </span>
               </Card.Content>
             </Card>
