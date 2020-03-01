@@ -1,4 +1,23 @@
+.DesktopNavbar {
+  display: none !important;
+}
+
+.MobileNavbar {
+  margin-top: 0 !important;
+  border: none !important;
+}
+
 .Item {
   color: #656565 !important;
   font-size: 1.4rem;
+}
+
+@media (min-width: 800px) {
+  .DesktopNavbar {
+    display: flex !important;
+  }
+
+  .MobileNavbar {
+    display: none !important;
+  }
 }

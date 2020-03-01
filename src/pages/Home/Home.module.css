@@ -2,25 +2,17 @@
   align-items: center;
   color: #656565;
   justify-content: space-between;
-  padding: 0 10rem;
-  display: flex;
-  height: 100vh;
-}
-
-.RightSide {
-  max-width: 40rem;
+  padding: 0 1rem;
 }
 
 .RightSide > h1 {
   font-size: 5rem;
+  margin-top: 3rem !important;
 }
 
 .RightSide > p {
   font-size: 1.5rem;
-}
-
-.LeftSide {
-  min-width: 30rem;
+  margin-bottom: 2rem !important;
 }
 
 .Label {
@@ -29,10 +21,6 @@
 
 .Aqi {
   font-size: 5rem;
-}
-
-.CardContent {
-  padding: 2rem !important;
 }
 
 .green {
@@ -44,4 +32,27 @@
 }
 .red {
   color: red;
+}
+
+@media (min-width: 800px) {
+  .Home {
+    padding: 0 10rem;
+    display: flex;
+    height: 90vh;
+  }
+  .RightSide {
+    max-width: 40rem;
+  }
+
+  .RightSide > h1 {
+    font-size: 5rem;
+  }
+
+  .LeftSide {
+    min-width: 30rem;
+  }
+
+  .CardContent {
+    padding: 2rem !important;
+  }
 }
