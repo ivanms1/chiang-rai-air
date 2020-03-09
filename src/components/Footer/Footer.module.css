@@ -1,0 +1,78 @@
+.Footer {
+  background-color: #b0b2b8;
+  display: flex;
+  color: #f9f9f9;
+  flex-direction: column;
+  padding: 2rem 1rem;
+}
+
+.Title {
+  color: #f9f9f9;
+  font-weight: lighter;
+}
+
+.FooterParagraph {
+  font-size: 16px;
+  max-width: 520px;
+  margin-bottom: 2rem !important;
+}
+
+.FooterRight {
+  display: flex;
+  flex-direction: column;
+}
+
+.Icons {
+  margin-bottom: 1rem;
+}
+
+.Icons > a {
+  color: #f9f9f9;
+}
+
+.Icons > a:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.Icons > a > i > svg {
+  width: 30px;
+  height: 30px;
+}
+
+.FooterLinks {
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.FooterLinks > a {
+  color: #f9f9f9;
+  cursor: pointer;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+.FooterLinks > a:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.Copyright {
+  color: #f9f9f9;
+  font-size: 14px;
+  letter-spacing: 0.1rem;
+}
+
+@media (min-width: 800px) {
+  .Footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 5rem;
+  }
+  .FooterParagraph {
+    max-width: 520px;
+  }
+
+  .FooterRight {
+    align-items: flex-end;
+  }
+}

@@ -8,6 +8,7 @@ import What from './pages/What';
 import Partners from './pages/Partners';
 import Contact from './pages/Contact';
 import SearchResult from './pages/SearchResult';
+import Footer from './components/Footer';
 
 import 'semantic-ui-css/semantic.min.css';
 
@@ -36,6 +37,7 @@ function App() {
             <SearchResult />
           </Route>
         </Switch>
+        <Footer />
       </div>
     </Router>
   );

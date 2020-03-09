@@ -26,8 +26,8 @@ const Intro = () => {
           <li>Worried about your kids breathing?</li>
         </ul>
         <p className={styles.IntroParagraph}>
-          &emsp;We are a thriving community helping people in need about
-          anything and everything to do with the air in Chiang Rai.
+          We are a thriving community helping people in need about anything and
+          everything to do with the air in Chiang Rai.
         </p>
       </div>
     </div>
