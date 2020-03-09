@@ -8,12 +8,15 @@ function Partners() {
       <div className={styles.RightSide}>
         <h1>Our Friends</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. At quam amet
-          tenetur? Temporibus, enim incidunt inventore aliquam ut aut odit
-          consequatur dolorem ad aperiam tempora unde nostrum harum hic fugiat,
-          et ab. Eveniet mollitia ullam, voluptatem consectetur voluptates
-          dignissimos quaerat nisi laudantium vitae magni sunt dolorum adipisci
-          recusandae! Numquam, magni?
+          At Chiang Rai Air we want people to know places where they can dine
+          with air purifiers. <br />
+          At Chiang Rai Air we also want people to know GYMs that they can go to
+          with air purifiers. <br />
+          At Chiang Rai Air we also want people to know Schools that have air
+          purifiers so our community can make better informed decisions.
+          <br />
+          &emsp;If you are a local business let us know if you have air
+          purifiers so we can inform people in our community.
         </p>
       </div>
       <div className={styles.LeftSide}>

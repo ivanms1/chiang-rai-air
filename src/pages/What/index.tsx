@@ -1,5 +1,7 @@
 import React from 'react';
 
+import pmDetector from '../../assets/pm-detector.jpg';
+
 import styles from './What.module.css';
 
 function What() {
@@ -7,20 +9,28 @@ function What() {
     <div className={styles.What}>
       <div className={styles.RightSide}>
         <h1>Make the air cleaner</h1>
+        <span>
+          Here are a list of things we have done by informing the community of
+          the air in Chiang Rai
+        </span>
+        <ul className={styles.WhatWeDoList}>
+          <li>
+            Our admins give up to date AQI updates in and around the city
+            (pictures of Manit and Davids readings)
+          </li>
+          <li>
+            Air purifier reviews with pictures (pictures of Matthews work)
+          </li>
+          <li>Air monitor reviews with pictures (pictures of Lonny device)</li>
+        </ul>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. At quam amet
-          tenetur? Temporibus, enim incidunt inventore aliquam ut aut odit
-          consequatur dolorem ad aperiam tempora unde nostrum harum hic fugiat,
-          et ab. Eveniet mollitia ullam, voluptatem consectetur voluptates
-          dignissimos quaerat nisi laudantium vitae magni sunt dolorum adipisci
-          recusandae! Numquam, magni?
+          &emsp;Do you want to help out with what we do and make Chiang Rai a
+          better place for all of us please click on our services section to
+          find out how you can help.
         </p>
       </div>
       <div className={styles.LeftSide}>
-        <img
-          src='https://images.unsplash.com/photo-1526197393380-592c737d3bfa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3961&q=80'
-          alt='filter'
-        />
+        <img src={pmDetector} alt='filter' />
       </div>
     </div>
   );

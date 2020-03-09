@@ -1,4 +1,4 @@
-.What {
+.Contact {
   align-items: center;
   color: #656565;
   justify-content: space-between;
@@ -16,7 +16,10 @@
 
 .RightSide > h1 {
   font-size: 4rem;
-  text-align: start;
+}
+
+.Form {
+  margin-top: 2rem;
 }
 
 .LeftSide > img {
@@ -25,12 +28,8 @@
   box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
 }
 
-.WhatWeDoList > li:not(:last-child) {
-  margin-bottom: 1rem;
-}
-
 @media (min-width: 800px) {
-  .What {
+  .Contact {
     padding: 0 10rem;
     height: 100vh;
     flex-direction: row;
@@ -54,7 +53,7 @@
   }
 
   .LeftSide > img {
-    width: 45rem;
-    height: auto;
+    height: 500px;
+    width: auto;
   }
 }

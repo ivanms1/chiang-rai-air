@@ -1,0 +1,68 @@
+.LandingPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #656565;
+  justify-content: space-evenly;
+  height: 92vh;
+  padding: 0 2rem;
+}
+
+.Loader {
+  height: 110px;
+}
+
+.RightSide > h1 {
+  font-size: 5rem;
+}
+
+.RightSide > p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem !important;
+  text-align: justify;
+}
+
+.Label {
+  font-size: 2rem;
+}
+
+.Aqi {
+  font-size: 5rem;
+}
+
+.green {
+  color: lightgreen;
+}
+
+.yellow {
+  color: yellow;
+}
+.red {
+  color: red;
+}
+
+@media (min-width: 800px) {
+  .LandingPage {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    padding: 0 10rem;
+  }
+  .RightSide {
+    max-width: 40rem;
+  }
+
+  .RightSide > h1 {
+    font-size: 5rem;
+    margin-top: 3rem !important;
+  }
+
+  .LeftSide {
+    min-width: 30rem;
+  }
+
+  .CardContent {
+    padding: 2rem !important;
+  }
+}

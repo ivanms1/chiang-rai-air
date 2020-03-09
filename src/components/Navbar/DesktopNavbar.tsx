@@ -46,6 +46,15 @@ const DesktopNavbar = () => {
             setCurrentPage('partners');
           }}
         />
+        <Menu.Item
+          className={styles.Item}
+          name='contact'
+          active={currentPage === 'contact'}
+          onClick={() => {
+            history.push('/contact');
+            setCurrentPage('contact');
+          }}
+        />
         <Menu.Item>
           <Input
             onChange={e => {

@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Who from './pages/Who';
 import What from './pages/What';
 import Partners from './pages/Partners';
+import Contact from './pages/Contact';
 import SearchResult from './pages/SearchResult';
 
 import 'semantic-ui-css/semantic.min.css';
@@ -27,6 +28,9 @@ function App() {
           </Route>
           <Route exact path='/partners'>
             <Partners />
+          </Route>
+          <Route exact path='/contact'>
+            <Contact />
           </Route>
           <Route path='/search/:city'>
             <SearchResult />

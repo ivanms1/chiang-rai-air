@@ -20,6 +20,9 @@ const MobileNavbar = () => {
           <Dropdown.Item onClick={() => history.push('/partners')}>
             Partners
           </Dropdown.Item>
+          <Dropdown.Item onClick={() => history.push('/contact')}>
+            Contact
+          </Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
       <Menu.Menu position='right'>
